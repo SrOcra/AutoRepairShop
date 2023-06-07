@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="680.0" prefWidth="1004.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autorepairshop.VerReparacion">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Rectangle arcHeight="5.0" arcWidth="5.0" height="73.0" layoutX="29.0" layoutY="581.0" stroke="#f52c16cc" strokeType="INSIDE" width="595.0">
+      <fill>
+         <LinearGradient endX="1.0" startY="1.0">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="0.9605262875556946" green="0.18276681005954742" blue="0.08004385977983475" />
+                  </color>
+               </Stop>
+               <Stop offset="0.007662835249042145">
+                  <color>
+                     <Color red="0.9605262875556946" green="0.18276681005954742" blue="0.08004385977983475" />
+                  </color>
+               </Stop>
+               <Stop offset="0.7777777777777778">
+                  <color>
+                     <Color red="1.0" green="0.5382716059684753" blue="0.13425925374031067" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </fill></Rectangle>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="327.0" layoutX="26.0" layoutY="234.0" stroke="#f52c16cc" strokeType="INSIDE" width="918.0">
+      <fill>
+         <LinearGradient endX="1.0" startY="1.0">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="0.9605262875556946" green="0.18276681005954742" blue="0.08004385977983475" />
+                  </color>
+               </Stop>
+               <Stop offset="0.007662835249042145">
+                  <color>
+                     <Color red="0.9605262875556946" green="0.18276681005954742" blue="0.08004385977983475" />
+                  </color>
+               </Stop>
+               <Stop offset="0.7777777777777778">
+                  <color>
+                     <Color red="1.0" green="0.5382716059684753" blue="0.13425925374031067" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </fill></Rectangle>
+   <Rectangle arcHeight="5.0" arcWidth="5.0" height="73.0" layoutX="631.0" layoutY="581.0" stroke="#f52c16cc" strokeType="INSIDE" width="319.0">
+      <fill>
+         <LinearGradient endX="1.0" startY="1.0">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="0.9605262875556946" green="0.18276681005954742" blue="0.08004385977983475" />
+                  </color>
+               </Stop>
+               <Stop offset="0.007662835249042145">
+                  <color>
+                     <Color red="0.9605262875556946" green="0.18276681005954742" blue="0.08004385977983475" />
+                  </color>
+               </Stop>
+               <Stop offset="0.7777777777777778">
+                  <color>
+                     <Color red="1.0" green="0.5382716059684753" blue="0.13425925374031067" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </fill></Rectangle>
+   <Rectangle arcHeight="5.0" arcWidth="5.0" height="241.0" layoutX="377.0" layoutY="316.0" stroke="#f530166e" strokeType="INSIDE" width="560.0">
+      <fill>
+         <LinearGradient endX="1.0" startY="1.0">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="0.9605262875556946" green="0.18276681005954742" blue="0.08004385977983475" />
+                  </color>
+               </Stop>
+               <Stop offset="0.007662835249042145">
+                  <color>
+                     <Color red="0.9605262875556946" green="0.18276681005954742" blue="0.08004385977983475" />
+                  </color>
+               </Stop>
+               <Stop offset="0.7777777777777778">
+                  <color>
+                     <Color red="1.0" green="0.5382716059684753" blue="0.13425925374031067" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </fill></Rectangle>
+   <TableView fx:id="RecibeDatosClienteAuto" layoutX="28.0" layoutY="17.0" prefHeight="200.0" prefWidth="870.0">
+     <columns>
+       <TableColumn fx:id="RecibeNumOrden" prefWidth="120.0" resizable="false" text="Número de Orden:" />
+       <TableColumn fx:id="RecibeNombreyApellido" minWidth="62.0" prefWidth="190.0" text="Nombre y Apellido:" />
+         <TableColumn fx:id="RecibeMail" prefWidth="120.0" resizable="false" text="Mail:" />
+        <TableColumn fx:id="RecibeDireccion" prefWidth="120.0" resizable="false" text="Direccion:" />
+        <TableColumn fx:id="RecibeAño" prefWidth="60.0" resizable="false" text="Año:" />
+        <TableColumn fx:id="RecibeModelo" prefWidth="120.0" resizable="false" text="Modelo:" />
+        <TableColumn fx:id="RecibeMarca" prefWidth="70.0" resizable="false" text="Marca:" />
+        <TableColumn fx:id="RecibePatente" prefWidth="120.0" resizable="false" text="Patente:" />
+        <TableColumn fx:id="RecibeMotor" prefWidth="120.0" resizable="false" text="Motor:" />
+        <TableColumn fx:id="RecibeChasis" prefWidth="120.0" resizable="false" text="Chasis:" />
+         <TableColumn fx:id="RecibeElProblema" prefWidth="120.0" resizable="false" text="Problema:" />
+        <TableColumn fx:id="RecibeElEstado" prefWidth="120.0" resizable="false" text="Estado:" />
+        <TableColumn fx:id="RecibeLaSolucion" prefWidth="120.0" resizable="false" text="Solucion:" />
+        <TableColumn fx:id="RecibeDocumento" prefWidth="120.0" resizable="false" text="D.N.I:" />
+        <TableColumn fx:id="RecibeElValor" prefWidth="120.0" resizable="false" text="Valor:" />
+     </columns>
+   </TableView>
+    <Button layoutX="913.0" layoutY="45.0" prefHeight="17.0" prefWidth="24.0" text="X" textFill="RED">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font></Button>
+   <TextField fx:id="NombreApellidoText" layoutX="38.0" layoutY="251.0" prefHeight="25.0" prefWidth="200.0" promptText="Nombre y Apellido">
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+   <TextField fx:id="DireccionText" layoutX="242.0" layoutY="251.0" promptText="Ingrese Dirección">
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+   <TextField fx:id="TelefonoText" layoutX="399.0" layoutY="251.0" promptText="Telefono">
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+   <TextField fx:id="DocumentoText" layoutX="555.0" layoutY="251.0" promptText="D.N.I">
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+   <Label layoutX="87.0" layoutY="234.0" text="Nombre y Apellido:" />
+   <Label layoutX="268.0" layoutY="234.0" text="Dirección" />
+   <Label layoutX="426.0" layoutY="234.0" text="Telefono" />
+   <Label layoutX="593.0" layoutY="234.0" text="D.N.I" />
+   <Label layoutX="379.0" layoutY="300.0" text="Datos de Reparación:" />
+   <Label layoutX="39.0" layoutY="294.0" text="Costo de Reparación:" />
+   <Label layoutX="39.0" layoutY="322.0" text="Problemas:" />
+   <Label fx:id="CostosdeReparacion" layoutX="173.0" layoutY="294.0" prefHeight="17.0" prefWidth="26.0" text="\$  -" />
+   <TextArea fx:id="ProblemasTextArea" layoutX="38.0" layoutY="338.0" prefHeight="200.0" prefWidth="299.0">
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextArea>
+   <MenuButton fx:id="SeleccionaEstado" layoutX="384.0" layoutY="340.0" mnemonicParsing="false" text="Estado">
+     <items>
+       <MenuItem fx:id="AbiertaSeleccion" mnemonicParsing="false" text="Abierta" />
+       <MenuItem fx:id="CerradoSeleccion" mnemonicParsing="false" text="Cerrado" />
+         <MenuItem fx:id="EnRevisionSeleccion" mnemonicParsing="false" text="En revisión" />
+         <MenuItem fx:id="EnEsperaSeleccion" mnemonicParsing="false" text="En espera" />
+     </items>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </MenuButton>
+   <Label layoutX="462.0" layoutY="322.0" text="Solucion o info de la reparación:" />
+   <TextArea fx:id="InfoReparacionTextArea" layoutX="461.0" layoutY="340.0" prefHeight="200.0" prefWidth="380.0">
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextArea>
+   <Button fx:id="GuardarReparacionBoton" layoutX="849.0" layoutY="389.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="76.0" text="   Guardar" textAlignment="RIGHT">
+      <font>
+         <Font name="Arial" size="10.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+   <Label layoutX="36.0" layoutY="569.0" text="Buscar:" />
+   <Label layoutX="67.0" layoutY="593.0" text="Nombre y Apellido:" />
+   <Label layoutX="306.0" layoutY="589.0" text="Número de Orden:" />
+   <Label layoutX="485.0" layoutY="589.0" text="Patente:" />
+   <CheckBox layoutX="40.0" layoutY="609.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="16.0">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor></CheckBox>
+   <TextField fx:id="NombreApellidoBuscaText" layoutX="65.0" layoutY="610.0" prefHeight="25.0" prefWidth="188.0">
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+   <CheckBox layoutX="282.0" layoutY="605.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="16.0">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor></CheckBox>
+   <TextField fx:id="NumOrdenBuscaText" layoutX="306.0" layoutY="606.0" prefHeight="25.0" prefWidth="130.0">
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+   <CheckBox layoutX="459.0" layoutY="604.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="16.0">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor></CheckBox>
+   <TextField fx:id="PatenteBuscaText" layoutX="485.0" layoutY="606.0" prefHeight="25.0" prefWidth="130.0">
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor></TextField>
+   <Button fx:id="AbreHistorialBoton" layoutX="642.0" layoutY="590.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="85.0" text="   Historial" textAlignment="RIGHT">
+      <font>
+         <Font name="Arial" size="10.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+   <Button fx:id="EntregarAutoBoton" layoutX="742.0" layoutY="590.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="100.0" text="   Entregar Auto" textAlignment="RIGHT">
+      <font>
+         <Font name="Arial" size="10.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+   <Button fx:id="CerrarVerReparacion" layoutX="854.0" layoutY="590.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="85.0" text="   Cerrar" textAlignment="RIGHT">
+      <font>
+         <Font name="Arial" size="10.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+   <DatePicker fx:id="SeleccionaFechaEnVerReparacion" layoutX="32.0" layoutY="656.0" promptText="Fecha" />
+</AnchorPane>
